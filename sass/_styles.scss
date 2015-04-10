@@ -1,0 +1,65 @@
+/*	==========================
+	Add your styles below
+	==========================	*/
+
+html, body {
+	height: 100%;
+}
+html {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	font-size: 30px;
+	text-align: center;
+	color: #202020;
+}
+.link {
+	color: #202020;
+	text-decoration: none;
+	transition: color ease .2s;
+	&:hover {
+		color: #22BAFF;
+	}
+}
+.social {
+	margin: 0 0 40px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.social li {
+	display: inline-block;
+	margin: 0 15px;
+}
+.social li a {
+	color: #cecece;
+	transition: color ease .2s;
+	&:hover {
+		color: #00B6F1;
+	}
+}
+.geomicon {
+	width: 2em;
+	height: 2em;
+}
+
+.bg-nw { background-color: #fafafa;}
+.f18 { font-size: 18px; }
+.f28 { font-size: 28px; }
+.f32 { font-size: 32px; }
+.f40 { font-size: 40px; }
+.fw3 { font-weight: 300; }
+.p100 { padding: 100px; }
+.p20ws { padding: 20px 40px; }
+.ptb1 { padding: 20px 0; }
+.mn { margin: 0; }
+.mb1 { margin-bottom: 10px; }
+.tc { text-align: center; }
+.uls {
+	text-transform: uppercase;
+	letter-spacing: .02rem;
+}
+
+@media screen and (min-width: 48em) {
+	.p20ws { padding: 20px 100px; }
+}
